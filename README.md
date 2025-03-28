@@ -12,6 +12,7 @@
 (High level Data flow)
 
 ## Project Structure
+
 Directory structure:
 └── cdoge25-covid19-adf/
     ├── README.md
