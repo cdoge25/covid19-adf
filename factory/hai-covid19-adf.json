@@ -1,0 +1,9 @@
+{
+	"name": "hai-covid19-adf",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "948f5443-1c64-4ba0-8eb0-7c361df9b0a3",
+		"tenantId": "6d004c4d-7067-42ec-bafa-6e3452befeea"
+	}
+}

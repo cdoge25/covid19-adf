@@ -1,0 +1,17 @@
+{
+	"name": "ls_sql_covid19_db",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "hai-covid19-svr.database.windows.net",
+			"database": "covid19-db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "adm",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEE2NzMyMkRBLTRBNjktNDBDRC04Q0U1LTc2NDVDRTVFN0Q0Ml9mNGM4YmM1ZC1iZjBhLTQ5MWItOTRiNy0xMWZhMzI4YzgwMTIiDQp9"
+		}
+	}
+}

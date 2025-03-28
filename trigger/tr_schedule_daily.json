@@ -1,0 +1,25 @@
+{
+	"name": "tr_schedule_daily",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2025-03-21T09:09:00",
+				"timeZone": "SE Asia Standard Time",
+				"schedule": {
+					"minutes": [
+						59
+					],
+					"hours": [
+						23
+					]
+				}
+			}
+		}
+	}
+}

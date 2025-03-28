@@ -1,0 +1,24 @@
+{
+	"name": "tr_event_blobCreated",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_execute_population_pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/population/blobs/population",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/1c8aff52-99ce-48e2-8271-884e1319218f/resourceGroups/haicovid19/providers/Microsoft.Storage/storageAccounts/haicovid19blob",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
