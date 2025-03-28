@@ -8,7 +8,7 @@
 2. Project Structure []
 ...
 
-##. Architecture
+## Architecture
 (High level Data flow)
 
 ## Project Structure
