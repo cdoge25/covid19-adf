@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "hai-covid19-adf"
+		},
+		"ls_ablob_haicovid19blob_connectionString": {
+			"value": ""
+		},
+		"ls_adls_haicovid19datalake_accountKey": {
+			"value": ""
+		},
+		"ls_databricks_covid19_accessToken": {
+			"value": ""
+		},
+		"ls_sql_covid19_db_password": {
+			"value": ""
+		},
+		"ls_adls_haicovid19datalake_properties_typeProperties_url": {
+			"value": "https://haicovid19datalake.dfs.core.windows.net/"
+		},
+		"ls_databricks_covid19_properties_typeProperties_existingClusterId": {
+			"value": "0328-075324-52jkzird"
+		},
+		"ls_http_ecdc_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"ls_sql_covid19_db_properties_typeProperties_server": {
+			"value": "hai-covid19-svr.database.windows.net"
+		},
+		"ls_sql_covid19_db_properties_typeProperties_database": {
+			"value": "covid19-db"
+		},
+		"ls_sql_covid19_db_properties_typeProperties_userName": {
+			"value": "adm"
+		},
+		"tr_event_blobCreated_properties_typeProperties_scope": {
+			"value": "/subscriptions/1c8aff52-99ce-48e2-8271-884e1319218f/resourceGroups/haicovid19/providers/Microsoft.Storage/storageAccounts/haicovid19blob"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
