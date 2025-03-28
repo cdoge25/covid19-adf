@@ -5,7 +5,7 @@
 		"runtimeState": "Started",
 		"pipeline": {
 			"pipelineReference": {
-				"referenceName": "pl_ingest_ecdc",
+				"referenceName": "pl_ingest_ecdc_data",
 				"type": "PipelineReference"
 			}
 		},
