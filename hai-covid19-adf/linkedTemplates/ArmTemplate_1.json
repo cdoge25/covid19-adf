@@ -1810,7 +1810,7 @@
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
-				"runtimeState": "Started",
+				"runtimeState": "Stopped",
 				"pipeline": {
 					"pipelineReference": {
 						"referenceName": "pl_ingest_ecdc_data",
@@ -1871,7 +1871,7 @@
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
-				"runtimeState": "Started",
+				"runtimeState": "Stopped",
 				"pipeline": {
 					"pipelineReference": {
 						"referenceName": "pl_process_casesDeaths",
@@ -1911,7 +1911,7 @@
 			"apiVersion": "2018-06-01",
 			"properties": {
 				"annotations": [],
-				"runtimeState": "Started",
+				"runtimeState": "Stopped",
 				"pipeline": {
 					"pipelineReference": {
 						"referenceName": "pl_process_hospitalAdmissions",
