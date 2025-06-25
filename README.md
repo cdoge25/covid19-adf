@@ -1,41 +1,87 @@
 # covid19-adf
 
 ## Overview
-(What is the project about)
+This project analyzes the spread and impact of COVID-19 across European countries using publicly available datasets. It aims to extract insights through data preprocessing, visualization, and time-series analysis.
 
 ## Table of contents
-1. Overview []
-2. Project Structure []
-...
+- [covid19-adf](#covid19-adf)
+  - [Overview](#overview)
+  - [Table of contents](#table-of-contents)
+  - [Architecture](#architecture)
+  - [Project Structure](#project-structure)
+  - [Data Source](#data-source)
+  - [Tech Stack](#tech-stack)
+
 
 ## Architecture
-(High level Data flow)
+<p align="center">
+    <img src="assets/architecture.png" alt="architecture" style="border-radius: 10px;">
+    </br>
+  Project Architecture
+</p>
 
 ## Project Structure
-
-Directory structure:
-└── cdoge25-covid19-adf/
-    ├── README.md
-    ├── publish_config.json
-    ├── dataflow/            - Contains dataflow
-    ├── dataset/             - Contains dataset definition
-    ├── factory/
-    ├── linkedService/
-    ├── pipeline/
-    └── trigger/
+```shell
+.
+├── assets/
+├── dataflow/           
+├── dataset/             
+├── factory/
+├── linkedService/
+├── pipeline/
+├── trigger/
+├── publish_config.json
+└── README.md
+```
 
 ## Data Source
 https://www.ecdc.europa.eu/en
-Covid 19 Data in Europe from this website
 
 ## Tech Stack
 1. Azure Data Factory
-- Pipelines (Capture image) (Optional)
-- Data flows (Capture image)
-2. Databricks (capture image)
-3. Azure Data Lake Gen 2 (capture image)
-4. Azure SQL DB (capture image)
+<p align="center">
+    <img src="assets/df1.png" alt="dataflow" style="border-radius: 10px;">
+    </br>
+    <img src="assets/df2.png" alt="dataflow" style="border-radius: 10px;">
+    </br>
+    <img src="assets/df3.png" alt="dataflow" style="border-radius: 10px;">
+    </br>
+  Dataflow
+</p>
+
+2. Databricks
+<p align="center">
+    <img src="assets/databricks.png" alt="databricks" style="border-radius: 10px;">
+    </br>
+  Databricks
+</p>
+
+3. Azure Data Lake Gen 2
+<p align="center">
+    <img src="assets/adls.png" alt="adls" style="border-radius: 10px;">
+    </br>
+  Azure Data Lake Gen 2
+</p>
+
+4. Azure SQL Database
+<p align="center">
+    <img src="assets/asqldb.png" alt="asqldb" style="border-radius: 10px;">
+    </br>
+  Azure SQL Database
+</p>
+
 5. Power BI
-- Covid trends by country (image + description)
-- Covid testing cases (image + description)
+<p align="center">
+    <img src="assets/cv1.png" alt="cv1" style="border-radius: 10px;">
+    </br>
+    <img src="assets/cv2.png" alt="cv2" style="border-radius: 10px;">
+    </br>
+  Covid Trends by Country
+</p>
+
+<p align="center">
+    <img src="assets/cv3.png" alt="cv3" style="border-radius: 10px;">
+    </br>
+  Covid Testing Cases
+</p>
 
