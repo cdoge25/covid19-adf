@@ -11,6 +11,11 @@ This project analyzes the spread and impact of COVID-19 across European countrie
   - [Project Structure](#project-structure)
   - [Data Source](#data-source)
   - [Tech Stack](#tech-stack)
+    - [Azure Data Factory](#azure-data-factory)
+    - [Databricks](#databricks)
+    - [Azure Data Lake Gen 2](#azure-data-lake-gen-2)
+    - [Azure SQL Database](#azure-sql-database)
+    - [Power BI](#power-bi)
 
 
 ## Architecture
@@ -38,7 +43,7 @@ This project analyzes the spread and impact of COVID-19 across European countrie
 https://www.ecdc.europa.eu/en
 
 ## Tech Stack
-1. Azure Data Factory
+### Azure Data Factory
 <p align="center">
     <img src="assets/df1.png" alt="dataflow" style="border-radius: 10px;">
     </br>
@@ -49,28 +54,28 @@ https://www.ecdc.europa.eu/en
   Dataflow
 </p>
 
-2. Databricks
+### Databricks
 <p align="center">
     <img src="assets/databricks.png" alt="databricks" style="border-radius: 10px;">
     </br>
   Databricks
 </p>
 
-3. Azure Data Lake Gen 2
+### Azure Data Lake Gen 2
 <p align="center">
     <img src="assets/adls.png" alt="adls" style="border-radius: 10px;">
     </br>
   Azure Data Lake Gen 2
 </p>
 
-4. Azure SQL Database
+### Azure SQL Database
 <p align="center">
     <img src="assets/asqldb.png" alt="asqldb" style="border-radius: 10px;">
     </br>
   Azure SQL Database
 </p>
 
-5. Power BI
+### Power BI
 <p align="center">
     <img src="assets/cv1.png" alt="cv1" style="border-radius: 10px;">
     </br>
